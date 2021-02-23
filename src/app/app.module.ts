@@ -5,9 +5,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
+import { HeaderComponent } from './components/layout/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, TodosComponent, TodoItemComponent],
+  declarations: [AppComponent, TodosComponent, TodoItemComponent, HeaderComponent],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
